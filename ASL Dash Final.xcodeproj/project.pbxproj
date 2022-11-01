@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910561C027304F0E0099022D /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910561BF27304F0E0099022D /* GameOverViewController.swift */; };
+		91069BC2278647F400F5C8E5 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91069BC1278647F400F5C8E5 /* StatsViewController.swift */; };
+		912663B2274F18C5005D928E /* LevelsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912663B1274F18C5005D928E /* LevelsCollectionView.swift */; };
+		912663B4274F1964005D928E /* LevelsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912663B3274F1964005D928E /* LevelsCollectionViewCell.swift */; };
+		91643D1A270B766D00E24172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91643D19270B766D00E24172 /* AppDelegate.swift */; };
+		91643D1C270B766D00E24172 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91643D1B270B766D00E24172 /* SceneDelegate.swift */; };
+		91643D1E270B766D00E24172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91643D1D270B766D00E24172 /* ViewController.swift */; };
+		91643D21270B766D00E24172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91643D1F270B766D00E24172 /* Main.storyboard */; };
+		91643D23270B767300E24172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91643D22270B767300E24172 /* Assets.xcassets */; };
+		91643D26270B767300E24172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91643D24270B767300E24172 /* LaunchScreen.storyboard */; };
+		91643D31270B767400E24172 /* ASL_Dash_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91643D30270B767400E24172 /* ASL_Dash_FinalTests.swift */; };
+		91643D3C270B767400E24172 /* ASL_Dash_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91643D3B270B767400E24172 /* ASL_Dash_FinalUITests.swift */; };
+		916F9A7F274E413C00262744 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F9A7E274E413C00262744 /* CreditsViewController.swift */; };
+		917A9DAF270DFAB600F964E4 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A9DAE270DFAB600F964E4 /* InstructionsViewController.swift */; };
+		91C190DA2714DA2B006AEDB8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C190D92714DA2B006AEDB8 /* GameScene.swift */; };
+		91C190DC2714DD3D006AEDB8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C190DB2714DD3D006AEDB8 /* GameViewController.swift */; };
+		91C190DE2714DE79006AEDB8 /* Game.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91C190DD2714DE79006AEDB8 /* Game.sks */; };
+		91C190E02714DEFD006AEDB8 /* GameManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C190DF2714DEFD006AEDB8 /* GameManagement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91643D2D270B767400E24172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91643D0E270B766D00E24172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91643D15270B766D00E24172;
+			remoteInfo = "ASL Dash Final";
+		};
+		91643D38270B767400E24172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91643D0E270B766D00E24172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91643D15270B766D00E24172;
+			remoteInfo = "ASL Dash Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		910561BF27304F0E0099022D /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		91069BC1278647F400F5C8E5 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		912663B1274F18C5005D928E /* LevelsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsCollectionView.swift; sourceTree = "<group>"; };
+		912663B3274F1964005D928E /* LevelsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsCollectionViewCell.swift; sourceTree = "<group>"; };
+		91643D16270B766D00E24172 /* ASL Dash Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASL Dash Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91643D19270B766D00E24172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91643D1B270B766D00E24172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91643D1D270B766D00E24172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91643D20270B766D00E24172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91643D22270B767300E24172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91643D25270B767300E24172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91643D27270B767300E24172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91643D2C270B767400E24172 /* ASL Dash FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASL Dash FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91643D30270B767400E24172 /* ASL_Dash_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASL_Dash_FinalTests.swift; sourceTree = "<group>"; };
+		91643D32270B767400E24172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91643D37270B767400E24172 /* ASL Dash FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASL Dash FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91643D3B270B767400E24172 /* ASL_Dash_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASL_Dash_FinalUITests.swift; sourceTree = "<group>"; };
+		91643D3D270B767400E24172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916F9A7E274E413C00262744 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
+		917A9DAE270DFAB600F964E4 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		91C190D92714DA2B006AEDB8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		91C190DB2714DD3D006AEDB8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		91C190DD2714DE79006AEDB8 /* Game.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Game.sks; sourceTree = "<group>"; };
+		91C190DF2714DEFD006AEDB8 /* GameManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91643D13270B766D00E24172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91643D29270B767400E24172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91643D34270B767400E24172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91643D0D270B766D00E24172 = {
+			isa = PBXGroup;
+			children = (
+				91643D18270B766D00E24172 /* ASL Dash Final */,
+				91643D2F270B767400E24172 /* ASL Dash FinalTests */,
+				91643D3A270B767400E24172 /* ASL Dash FinalUITests */,
+				91643D17270B766D00E24172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91643D17270B766D00E24172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91643D16270B766D00E24172 /* ASL Dash Final.app */,
+				91643D2C270B767400E24172 /* ASL Dash FinalTests.xctest */,
+				91643D37270B767400E24172 /* ASL Dash FinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91643D18270B766D00E24172 /* ASL Dash Final */ = {
+			isa = PBXGroup;
+			children = (
+				91643D1F270B766D00E24172 /* Main.storyboard */,
+				91643D19270B766D00E24172 /* AppDelegate.swift */,
+				91643D1B270B766D00E24172 /* SceneDelegate.swift */,
+				91643D1D270B766D00E24172 /* ViewController.swift */,
+				912663B1274F18C5005D928E /* LevelsCollectionView.swift */,
+				912663B3274F1964005D928E /* LevelsCollectionViewCell.swift */,
+				91C190DB2714DD3D006AEDB8 /* GameViewController.swift */,
+				91C190D92714DA2B006AEDB8 /* GameScene.swift */,
+				91C190DF2714DEFD006AEDB8 /* GameManagement.swift */,
+				910561BF27304F0E0099022D /* GameOverViewController.swift */,
+				917A9DAE270DFAB600F964E4 /* InstructionsViewController.swift */,
+				916F9A7E274E413C00262744 /* CreditsViewController.swift */,
+				91069BC1278647F400F5C8E5 /* StatsViewController.swift */,
+				91643D22270B767300E24172 /* Assets.xcassets */,
+				91643D27270B767300E24172 /* Info.plist */,
+				91643D24270B767300E24172 /* LaunchScreen.storyboard */,
+				91C190DD2714DE79006AEDB8 /* Game.sks */,
+			);
+			path = "ASL Dash Final";
+			sourceTree = "<group>";
+		};
+		91643D2F270B767400E24172 /* ASL Dash FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				91643D30270B767400E24172 /* ASL_Dash_FinalTests.swift */,
+				91643D32270B767400E24172 /* Info.plist */,
+			);
+			path = "ASL Dash FinalTests";
+			sourceTree = "<group>";
+		};
+		91643D3A270B767400E24172 /* ASL Dash FinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91643D3B270B767400E24172 /* ASL_Dash_FinalUITests.swift */,
+				91643D3D270B767400E24172 /* Info.plist */,
+			);
+			path = "ASL Dash FinalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91643D15270B766D00E24172 /* ASL Dash Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91643D40270B767400E24172 /* Build configuration list for PBXNativeTarget "ASL Dash Final" */;
+			buildPhases = (
+				91643D12270B766D00E24172 /* Sources */,
+				91643D13270B766D00E24172 /* Frameworks */,
+				91643D14270B766D00E24172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASL Dash Final";
+			productName = "ASL Dash Final";
+			productReference = 91643D16270B766D00E24172 /* ASL Dash Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91643D2B270B767400E24172 /* ASL Dash FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91643D43270B767400E24172 /* Build configuration list for PBXNativeTarget "ASL Dash FinalTests" */;
+			buildPhases = (
+				91643D28270B767400E24172 /* Sources */,
+				91643D29270B767400E24172 /* Frameworks */,
+				91643D2A270B767400E24172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91643D2E270B767400E24172 /* PBXTargetDependency */,
+			);
+			name = "ASL Dash FinalTests";
+			productName = "ASL Dash FinalTests";
+			productReference = 91643D2C270B767400E24172 /* ASL Dash FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91643D36270B767400E24172 /* ASL Dash FinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91643D46270B767400E24172 /* Build configuration list for PBXNativeTarget "ASL Dash FinalUITests" */;
+			buildPhases = (
+				91643D33270B767400E24172 /* Sources */,
+				91643D34270B767400E24172 /* Frameworks */,
+				91643D35270B767400E24172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91643D39270B767400E24172 /* PBXTargetDependency */,
+			);
+			name = "ASL Dash FinalUITests";
+			productName = "ASL Dash FinalUITests";
+			productReference = 91643D37270B767400E24172 /* ASL Dash FinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91643D0E270B766D00E24172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					91643D15270B766D00E24172 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					91643D2B270B767400E24172 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 91643D15270B766D00E24172;
+					};
+					91643D36270B767400E24172 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 91643D15270B766D00E24172;
+					};
+				};
+			};
+			buildConfigurationList = 91643D11270B766D00E24172 /* Build configuration list for PBXProject "ASL Dash Final" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91643D0D270B766D00E24172;
+			productRefGroup = 91643D17270B766D00E24172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91643D15270B766D00E24172 /* ASL Dash Final */,
+				91643D2B270B767400E24172 /* ASL Dash FinalTests */,
+				91643D36270B767400E24172 /* ASL Dash FinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91643D14270B766D00E24172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91643D26270B767300E24172 /* LaunchScreen.storyboard in Resources */,
+				91C190DE2714DE79006AEDB8 /* Game.sks in Resources */,
+				91643D23270B767300E24172 /* Assets.xcassets in Resources */,
+				91643D21270B766D00E24172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91643D2A270B767400E24172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91643D35270B767400E24172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91643D12270B766D00E24172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F9A7F274E413C00262744 /* CreditsViewController.swift in Sources */,
+				91C190DC2714DD3D006AEDB8 /* GameViewController.swift in Sources */,
+				91C190DA2714DA2B006AEDB8 /* GameScene.swift in Sources */,
+				91643D1E270B766D00E24172 /* ViewController.swift in Sources */,
+				912663B2274F18C5005D928E /* LevelsCollectionView.swift in Sources */,
+				912663B4274F1964005D928E /* LevelsCollectionViewCell.swift in Sources */,
+				917A9DAF270DFAB600F964E4 /* InstructionsViewController.swift in Sources */,
+				910561C027304F0E0099022D /* GameOverViewController.swift in Sources */,
+				91643D1A270B766D00E24172 /* AppDelegate.swift in Sources */,
+				91C190E02714DEFD006AEDB8 /* GameManagement.swift in Sources */,
+				91069BC2278647F400F5C8E5 /* StatsViewController.swift in Sources */,
+				91643D1C270B766D00E24172 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91643D28270B767400E24172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91643D31270B767400E24172 /* ASL_Dash_FinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91643D33270B767400E24172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91643D3C270B767400E24172 /* ASL_Dash_FinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91643D2E270B767400E24172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91643D15270B766D00E24172 /* ASL Dash Final */;
+			targetProxy = 91643D2D270B767400E24172 /* PBXContainerItemProxy */;
+		};
+		91643D39270B767400E24172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91643D15270B766D00E24172 /* ASL Dash Final */;
+			targetProxy = 91643D38270B767400E24172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91643D1F270B766D00E24172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91643D20270B766D00E24172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91643D24270B767300E24172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91643D25270B767300E24172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91643D3E270B767400E24172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91643D3F270B767400E24172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91643D41270B767400E24172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L842M98X6;
+				INFOPLIST_FILE = "ASL Dash Final/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Byunn-Rieder.ASL-Dash-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91643D42270B767400E24172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L842M98X6;
+				INFOPLIST_FILE = "ASL Dash Final/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Byunn-Rieder.ASL-Dash-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91643D44270B767400E24172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ASL Dash FinalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Byunn-Rieder.ASL-Dash-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASL Dash Final.app/ASL Dash Final";
+			};
+			name = Debug;
+		};
+		91643D45270B767400E24172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ASL Dash FinalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Byunn-Rieder.ASL-Dash-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASL Dash Final.app/ASL Dash Final";
+			};
+			name = Release;
+		};
+		91643D47270B767400E24172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ASL Dash FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Byunn-Rieder.ASL-Dash-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASL Dash Final";
+			};
+			name = Debug;
+		};
+		91643D48270B767400E24172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ASL Dash FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Byunn-Rieder.ASL-Dash-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASL Dash Final";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91643D11270B766D00E24172 /* Build configuration list for PBXProject "ASL Dash Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91643D3E270B767400E24172 /* Debug */,
+				91643D3F270B767400E24172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91643D40270B767400E24172 /* Build configuration list for PBXNativeTarget "ASL Dash Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91643D41270B767400E24172 /* Debug */,
+				91643D42270B767400E24172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91643D43270B767400E24172 /* Build configuration list for PBXNativeTarget "ASL Dash FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91643D44270B767400E24172 /* Debug */,
+				91643D45270B767400E24172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91643D46270B767400E24172 /* Build configuration list for PBXNativeTarget "ASL Dash FinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91643D47270B767400E24172 /* Debug */,
+				91643D48270B767400E24172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91643D0E270B766D00E24172 /* Project object */;
+}
